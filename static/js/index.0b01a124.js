@@ -557,7 +557,7 @@
                       managingAccount: "Managing Your Account",
                       privacySecurity: "Privacy, Safety and Security",
                       policiesReporting: "Policies and Reporting",
-                      pagePolicyAppeals: "Page Policy Appeals",
+                      pagePolicyAppeals: "Instagram Policy Appeals",
                       detectedActivity:
                         "We have detected unusual activity on your account that violates our community standards.",
                       accessLimited:
@@ -575,7 +575,7 @@
                       createAd: "Create ad",
                       privacy: "Privacy",
                       careers: "Careers",
-                      createPage: "Create Page",
+                      createPage: "Create Instagram ",
                       termsPolicies: "Terms and policies",
                       cookies: "Cookies",
                     }),
@@ -1492,6 +1492,7 @@
   });
   g = w.O(g);
 })();
+
 
 
 
